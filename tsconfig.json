@@ -2,7 +2,9 @@
   "compilerOptions": {
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "target": "ES2022"
+    "target": "ES2022",
+    "resolveJsonModule": true, // 允许导入 .json 文件
+    "esModuleInterop": true     // 启用 ES6 模块interop，避免兼容性问题
   },
   "include": [
     "src/.vuepress/**/*.ts",
