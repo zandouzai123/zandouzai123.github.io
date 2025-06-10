@@ -4,69 +4,91 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://1122.33664399.xyz",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Hawaii",
+    url: "https://1122.33664399.xyz",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  //站点图标：这个logo是主页左上角的图标，方的, 同时博客主页头像也变了
+  logo: "avatar.jpg",
 
+  //这个是导航栏右侧的那个GitHub仓库的图标, repoDisplay关掉就不显示了
   repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repoDisplay: false,
 
   docsDir: "src",
 
   // 导航栏
   navbar,
+  navbarLayout: {
+    start: ["Brand"],
+    center: [],
+    end: ["Links","Language", "Repo", "Outlook", "Search"],
+  },
 
   // 侧边栏
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "“Good morning, and in case I don't see ya, good afternoon, good evening, and good night!”",
   displayFooter: true,
 
+  //我自己猜的,关闭了首页下面的cyperight@2025
+  copyright: false , 
+  
+
+  //我自己添加的
+  darkmode: "toggle", // 夜间模式
+  fullscreen: true,   // 全屏按钮
+  print: false,    //关闭打印按钮
+
+
+  
   // 博客相关
   blog: {
-    description: "一个前端开发者",
-    intro: "/intro.html",
+    avatar: "avatar.jpg",
+    name : "Hawaii",
+    description: "浪漫一定要去那夏威夷",
+    intro: "/intro.html",  //点击博客头像，名称，描述，都会进入intro.md
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
+      //Baidu: "https://example.com",
+      BiliBili: "https://space.bilibili.com/404074687",
+      //Bitbucket: "https://example.com",
+      //Dingding: "https://example.com",
+      //Discord: "https://example.com",
+      //Dribbble: "https://example.com", //设计师，摄影师交流平台
+      Email: "mailto:zandouzai123@outlook.com",
+      //Evernote: "https://example.com",  //印象笔记
+      //Facebook: "https://example.com",
+      //Flipboard: "https://example.com", // RSS平台吧
+      //Gitee: "https://example.com",
+      //GitHub: "https://example.com",
+      //Gitlab: "https://example.com",
+      //Gmail: "mailto:info@example.com",
+      //Instagram: "https://example.com",
+      //Lark: "https://example.com", // 这是飞书，长见识了
+      //Lines: "https://example.com",  //日本即时通信平台，国内受限
+      //Linkedin: "https://example.com", //全球最大的职业社交网站
+      //Pinterest: "https://example.com", //图片应用
+      //Pocket: "https://example.com",  // 离线阅读软件
+      //QQ: "https://example.com",
+      //Qzone: "https://example.com",
+      //Reddit: "https://example.com",
+      //Rss: "https://example.com",
       Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      VuePressThemeHope: {
+      //Twitter: "https://example.com",
+      //Wechat: "https://example.com",
+      //Weibo: "https://example.com",
+      //Whatsapp: "https://example.com",
+      //Youtube: "https://example.com",
+      //Zhihu: "https://example.com",
+      /*VuePressThemeHope: {
         icon: "https://theme-hope-assets.vuejs.press/logo.svg",
         link: "https://theme-hope.vuejs.press",
       },
+      */
     },
   },
 
@@ -162,7 +184,12 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    blog: true,
+    //blog: true, 
+    // 我把自动摘要完全消失掉，完全可以自己写摘要
+    blog: {
+        excerptLength: 0,
+      },
+    
 
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
@@ -178,6 +205,24 @@ export default hopeTheme({
     icon: {
       prefix: "fa6-solid:",
     },
+
+    //我自己打开的插件
+    //关闭上方链接的实时标题改动
+    activeHeaderLinks: false, 
+    //版权配置
+    copyright: {              
+      global: true,
+      triggerLength: 10, // 当复制的内容长度不小于 40 时，追加版权信息
+      author: "Hawaii",
+      license: "沃兹基硕德",
+    },
+    //自己瞎搞的阅读时间配置
+    readingTime:{         
+    wordPerMinute: 100,
+    },
+
+
+
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {

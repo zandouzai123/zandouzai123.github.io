@@ -6,8 +6,8 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "博客演示",
-  description: "vuepress-theme-hope 的博客演示",
+  title: "Hawaii", //这是导航栏左上角的名称标题
+  description: "浪漫一定要去那夏威夷",
 
   theme,
 

@@ -2,11 +2,17 @@
 home: true
 layout: Blog
 icon: house
-title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 你博客的名称
+title: 主页
+heroImage: /github.png  
+heroAlt: 我的项目为了全世界
+heroText: 名称就是主标题
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+article: false
+index: false
+containerClass: mo7-blog-home
+tagline: 口号与标语就是副标题
+footer: true
+
 projects:
   - icon: folder-open
     name: 项目名称
@@ -38,11 +44,31 @@ projects:
     desc: 自定义详细介绍
     link: https://你的自定义链接
 
-footer: 自定义你的页脚文字
+
 ---
 
-这是一个博客主页的案例。
+# 主页
 
-要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
+<div id="mo7-blog-hero-content">
+  <a target="_blank" class="link image-link link-1" href="https://bucket.33664399.xyz/file/Laura.gif">
+    <img class="vp-blog-hero-image" src="https://bucket.33664399.xyz/file/Laura.gif" alt="" srcset="" />
+  </a>
+  
 
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。
+  <a target="_blank" class="link  link-6" href="mailto: zandouzai123@outlook.com">
+    <h2>E-mail</h2>
+    <span>zandouzai123@outlook.com</span>
+  </a>
+</div>
+
+<br> <!-- 插入一个换行 -->
+
+<div id="Hawaii-hitokoto-wrapper">
+  <div class="hitokoto-content">
+    <div>『我应该是失败的，平局就算胜利。』</div>
+    <div align="right">『I should have failed, a draw counts as victory.』</div>
+  </div>
+  <div class="hitokoto-author">
+    ——「沃兹基硕德」
+  </div>
+</div>

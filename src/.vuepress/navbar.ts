@@ -1,8 +1,9 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-  "/",
-  "/demo/",
+  "/", //直接配置好了，并且就叫博客主页。/ 指的是 /readme.md 中配置好的内容
+  "/demo/",//直接配置好了，非常神奇，这里可以看到我的所有文章。应该是看了此文件夹下的readme
+  //          /demo/readme.md 配置好的东西 用了<Catalog />全局组件
   {
     text: "博文",
     icon: "pen-to-square",
@@ -44,9 +45,10 @@ export default navbar([
       "strawberry",
     ],
   },
-  {
+  /*{
     text: "V2 文档",
     icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
+    link: "https://theme-hope.vuejs.press/zh/",//如果是网页链接，就会右上角多一个箭头
   },
+  */
 ]);

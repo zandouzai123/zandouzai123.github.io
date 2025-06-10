@@ -1,2 +1,18 @@
 // you can change config here
-$theme-color: #096dd9;
+//$theme-color: #096dd9; 
+
+//给主题设置颜色
+
+$theme-color: #4ede9dd8, #81d8cf, #003152, #096dd9, #8f4b28, #00bfff, #40e0d0;
+//$theme-color: #3eaf7c, #2196f3, #f26d6d, #fb9b5f;
+/*  自动配置调色盘 ，且能白天夜间模式，两种颜色
+$theme-color: (
+  (
+    light: rgb(59, 186, 129),
+    dark: rgb(30, 140, 90),
+  ),
+  #2196f3,
+  #f26d6d,
+  #fb9b5f
+);
+*/
