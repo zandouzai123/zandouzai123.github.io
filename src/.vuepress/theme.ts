@@ -193,10 +193,18 @@ export default hopeTheme({
 
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
-    // comment: {
-    //   provider: "Waline",
-    //   serverURL: "https://waline-comment.vuejs.press",
-    // },
+    comment: {
+       provider: "Waline",
+       serverURL: "https://comment-waline.33664399.xyz",
+
+       //以下是我自己添加的东西，在这是可以的
+        dark: 'auto', // 暗黑模式：true | false | 'auto'
+        meta: ['nick', 'mail'], // 评论显示字段：nick | mail | link
+        requiredMeta: ['nick', 'mail'], // 必填字段：[] | ['nick'] | ['nick', 'mail']
+        commentSorting: 'oldest', // 评论排序：'latest' | 'oldest' | 'hottest'
+        pageSize: 10, // 每页评论数
+        login: 'enable', // 登录模式：'enable' | 'disable' | 'force'
+    },
 
     components: {
       components: ["Badge", "VPCard"],
