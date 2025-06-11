@@ -115,7 +115,7 @@ function AddBtnSpin() {
 const LoadMusicList = (callback) => {
   axios({
     method: 'get',
-    url: '/music/test.json',
+    url: '/music/music-1.json',
     params: {},
   }).then((response) => {
     var listData = response.data;

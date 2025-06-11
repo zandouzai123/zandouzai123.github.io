@@ -1,0 +1,85 @@
+[
+    {
+      "name": "乌克丽丽",
+      "artist": "周杰伦",
+      "url": "https://bucket.33664399.xyz/file/乌克丽丽.mp3",
+      "cover": "https://y.qq.com/music/photo_new/T002R300x300M000003Ow85E3pnoqi_1.jpg?max_age=2592000",
+      "lrc":   "/lrc/乌克丽丽.lrc"
+    },
+
+    {
+      "name": "乘着爱的翅膀",
+      "artist": "(cover:大张伟)",
+      "url": "https://bucket.33664399.xyz/file/乘着爱的翅膀.mp3",
+      "cover": "https://y.gtimg.cn/music/photo_new/T002R500x500M000004OCktS0khOQb.jpg?max_age=2592000",
+      "lrc":   "/lrc/乘着爱的翅膀.lrc"
+    },
+
+    {
+      "name": "如谜",
+      "artist": "(cover:许嵩)",
+      "url": "https://bucket.33664399.xyz/file/如谜.mp3",
+      "cover": "https://y.gtimg.cn/music/photo_new/T002R500x500M000002GD9sC2x6Aj4.jpg?max_age=2592000",
+      "lrc":   "/lrc/如谜.lrc"
+    }, 
+
+    {
+      "name": "爱的回归线",
+      "artist": "(cover:陈韵若/陈每文)",
+      "url": "https://bucket.33664399.xyz/file/爱的回归线.mp3",
+      "cover": "https://y.gtimg.cn/music/photo_new/T002R500x500M0000021xPKd4ZNJTU.jpg?max_age=2592000",
+      "lrc":   "/lrc/爱的回归线.lrc"
+    }, 
+
+    {
+      "name": "半岛铁盒",
+      "artist": "(cover:周杰伦)",
+      "url": "https://bucket.33664399.xyz/file/半岛铁盒.mp3",
+      "cover": "https://y.gtimg.cn/music/photo_new/T002R500x500M000004MGitN0zEHpb.jpg?max_age=2592000",
+      "lrc":   "/lrc/半岛铁盒.lrc"
+    }, 
+    
+    {
+      "name": "暖暖(Live)",
+      "artist": "(cover:香皂泡)",
+      "url": "https://bucket.33664399.xyz/file/暖暖(Live).mp3",
+      "cover": "https://y.gtimg.cn/music/photo_new/T002R500x500M000sg004aa2r61U8CPV.jpg?max_age=2592000",
+      "lrc":   "/lrc/暖暖(Live).lrc"
+    }, 
+
+    {
+      "name": "无论你多怪异我还是会喜欢你",
+      "artist": "(cover:江惠莲)",
+      "url": "https://bucket.33664399.xyz/file/无论你多怪异我还是会喜欢你.mp3",
+      "cover": "https://y.gtimg.cn/music/photo_new/T002R500x500M000003ASgTC48q4vE.jpg?max_age=2592000",
+      "lrc":   "/lrc/无论你多怪异我还是会喜欢你.lrc"
+    }, 
+
+    {
+      "name": "如约而至",
+      "artist": "(cover:许嵩)",
+      "url": "https://bucket.33664399.xyz/file/如约而至.mp3",
+      "cover": "https://y.gtimg.cn/music/photo_new/T029R640x360M000004RteIE2GhfmR.jpg?max_age=2592000",
+      "lrc":   "/lrc/如约而至.lrc"
+    },
+
+    {
+      "name": "十年",
+      "artist": "(cover:陈奕迅)",
+      "url": "https://bucket.33664399.xyz/file/十年.mp3",
+      "cover": "https://y.gtimg.cn/music/photo_new/T002R500x500M000003Z5p2o40ZnnR.jpg?max_age=2592000",
+      "lrc":   "/lrc/十年.lrc"
+    },
+
+    {
+      "name": "歌曲名",
+      "artist": "(cover:原唱歌手)",
+      "url": "地址",
+      "cover": "封面链接",
+      "lrc":   "/lrc/歌曲名.lrc"
+    }
+
+    
+  
+  
+]
