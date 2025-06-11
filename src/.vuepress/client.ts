@@ -9,9 +9,8 @@ import { defineAsyncComponent } from 'vue';
 import('./components/PrintVersion').then((res) => {
   res.default();
 });
-
-
 const BlogBg = defineAsyncComponent(() => import('./components/BlogBg.vue'));
+const NavMusic = defineAsyncComponent(() => import('./components/NavMusic.vue'));
 
 
 
@@ -39,6 +38,7 @@ export default defineClientConfig({
   //mo7大佬
   rootComponents: [
     BlogBg,
+    NavMusic,
   ],
   
    
