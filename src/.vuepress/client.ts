@@ -11,6 +11,7 @@ import('./components/PrintVersion').then((res) => {
 });
 const BlogBg = defineAsyncComponent(() => import('./components/BlogBg.vue'));
 const NavMusic = defineAsyncComponent(() => import('./components/NavMusic.vue'));
+const CommentHideBtn = defineAsyncComponent(() => import('./components/CommentHideBtn.vue'));
 
 
 
@@ -39,6 +40,7 @@ export default defineClientConfig({
   rootComponents: [
     BlogBg,
     NavMusic,
+    CommentHideBtn,
   ],
   
    
