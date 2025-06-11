@@ -26,7 +26,7 @@ export default defineClientConfig({
   setup: () => {
     setupTransparentNavbar({ 
         type: "all" ,
-        threshold: 100,
+        threshold: 10000,
         light: "#333333", // 浅色模式下文字为深灰色
         dark: "#ffffff",  // 深色模式下文字为白色
     });
