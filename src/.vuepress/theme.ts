@@ -23,9 +23,9 @@ export default hopeTheme({
   // 导航栏
   navbar,
   navbarLayout: {
-    start: ["Brand"],
+    start: ["Brand", "Search"],
     center: [],
-    end: ["Links","Language", "Repo", "Outlook", "Search"],
+    end: ["Links","Language", "Repo", "Outlook"],
   },
 
   // 侧边栏
@@ -225,11 +225,16 @@ export default hopeTheme({
       global: true,
       triggerLength: 10, // 当复制的内容长度不小于 40 时，追加版权信息
       author: "Hawaii",
-      license: "沃兹基硕德",
+      license: "哈哈沃兹基硕德嘿",
     },
     //自己瞎搞的阅读时间配置
     readingTime:{         
     wordPerMinute: 100,
+    },
+    //自己加的slim-search
+    slimsearch: {
+      resultHistoryCount: 0,
+      queryHistoryCount: 6,
     },
 
 
