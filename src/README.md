@@ -3,45 +3,43 @@ home: true
 layout: Blog
 icon: house
 title: 主页
-heroImage: /github.png  
-heroAlt: 我的项目为了全世界
-heroText: 名称就是主标题
+heroImage: /Laura.jpg  
+heroText: Hawaii
 heroFullScreen: true
 article: false
 index: false
-containerClass: mo7-blog-home
-tagline: 口号与标语就是副标题
+tagline: 副标题，被一言遮住了
 footer: true
 
 projects:
   - icon: folder-open
-    name: 项目名称
-    desc: 项目详细描述
+    name: 站点地图
+    desc: 全部内容大总和，早已 
     link: https://你的项目链接
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
+    name: 随机教程
+    desc: 防止遗忘，留下复现步骤
     link: https://链接地址
 
   - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
+    name: 读者来信
+    desc: 欢迎欢迎，读者来行了
     link: https://你的书籍链接
 
   - icon: newspaper
-    name: 文章名称
-    desc: 文章详细描述
+    name: 英语作文
+    desc: 当然了，我喜欢背英语
     link: https://你的文章链接
 
   - icon: user-group
-    name: 伙伴名称
-    desc: 伙伴详细介绍
+    name: 语文古文
+    desc: 可能了解，我喜欢的古文
     link: https://你的伙伴链接
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
+    name: 算卦小摊
+    desc: 新手命理学，图一乐
     link: https://你的自定义链接
 
 
@@ -65,7 +63,7 @@ projects:
 
 <div id="Hawaii-hitokoto-wrapper">
   <div class="hitokoto-content">
-    <div>『我应该是失败的，平局就算胜利。』</div>
+    <div>『我本该是失败的，平局即是胜利。』</div>
     <div align="right">『I should have failed, a draw counts as victory.』</div>
   </div>
   <div class="hitokoto-author">
