@@ -43,6 +43,9 @@ export default hopeTheme({
   darkmode: "toggle", // 夜间模式
   fullscreen: true,   // 全屏按钮
   print: false,    //关闭打印按钮
+  editLink: false, //关闭编辑链接
+  contributors: false, //关闭文章末尾的贡献者
+  changelog: false, //关闭变更日志
 
 
   
