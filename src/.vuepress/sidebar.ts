@@ -7,6 +7,7 @@ const go_home = {
 };
 
 export default sidebar({
+  /*
   "/": [  // / ，文档说这是回退，放在最后，说是根目录也对
     "",   //  什么都没有，就直接代表主页。也就是根目录readme.md
     {
@@ -31,22 +32,23 @@ export default sidebar({
       link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
     },
   ],
+  */
 
-//  '/': [],
+  '/': [],
     
     
   '/1.about/': [
     go_home,
     {
-      text: '关于',
-      icon: 'info',
+      text: '地图',
+      icon: 'map',
       link: '/1.about/',
       children: 'structure',
     },
    
     {
-      text: '日常',
-      icon: 'newspaper',
+      text: '日记',
+      icon: 'book',
       link: '/2.diary/',
       prefix: '/2.diary/',
       children: 'structure',
