@@ -62,7 +62,7 @@ export default hopeTheme({
       //Dingding: "https://example.com",
       //Discord: "https://example.com",
       //Dribbble: "https://example.com", //设计师，摄影师交流平台
-      Email: "mailto:zandouzai123@outlook.com",
+      Email: "mailto:zandouzai1122@outlook.com",
       //Evernote: "https://example.com",  //印象笔记
       //Facebook: "https://example.com",
       //Flipboard: "https://example.com", // RSS平台吧

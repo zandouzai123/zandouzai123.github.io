@@ -15,7 +15,7 @@ projects:
   - icon: folder-open
     name: 站点地图
     desc: 全部内容大总和，早已 
-    link: https://你的项目链接
+    link: '/1.about/'
 
   - icon: link
     name: 随机教程
@@ -24,18 +24,18 @@ projects:
 
   - icon: book
     name: 读者来信
-    desc: 欢迎欢迎，读者来行了
+    desc: 欢迎欢迎，读者来了
     link: https://你的书籍链接
 
   - icon: newspaper
-    name: 英语作文
-    desc: 当然了，我喜欢背英语
+    name: 不告诉你
+    desc: 当然了，我喜欢她
     link: https://你的文章链接
 
   - icon: user-group
-    name: 语文古文
-    desc: 可能了解，我喜欢的古文
-    link: https://你的伙伴链接
+    name: 邮政储蓄
+    desc: 我的单位，乖乖，无言
+    link: '/posts/postal/sale.html'
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
     name: 算卦小摊
@@ -53,9 +53,9 @@ projects:
   </a>
   
 
-  <a target="_blank" class="link  link-6" href="mailto: zandouzai123@outlook.com">
+  <a target="_blank" class="link  link-6" href="mailto: zandouzai1122@outlook.com">
     <h2>E-mail</h2>
-    <span>zandouzai123@outlook.com</span>
+    <span>zandouzai1122@outlook.com</span>
   </a>
 </div>
 
