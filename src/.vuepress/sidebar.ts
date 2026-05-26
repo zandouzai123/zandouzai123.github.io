@@ -47,7 +47,7 @@ export default sidebar({
     },
    
     {
-      text: '日记',
+      text: '追忆',
       icon: 'book',
       link: '/2.diary/',
       prefix: '/2.diary/',
@@ -55,7 +55,7 @@ export default sidebar({
     },      
 
     {
-      text: 'blog',
+      text: '金融',
       icon: 'blog',
       link: '/3.log/',
       prefix: '/3.log/',
@@ -76,7 +76,7 @@ export default sidebar({
   '/2.diary/': [
     go_home,
     {
-      text: '日常',
+      text: '追忆',
       icon: 'newspaper',
       link: '/2.diary/',
       children: 'structure',
@@ -86,7 +86,7 @@ export default sidebar({
   '/3.log/': [
     go_home,
     {
-      text: 'blog',
+      text: '金融',
       icon: 'blog',
       link: '/3.log/',
       children: 'structure',

@@ -14,7 +14,7 @@ footer: true
 projects:
   - icon: folder-open
     name: 站点地图
-    desc: 全部内容大总和，早已 
+    desc: 全部内容大总和，嗯嗯 
     link: '/1.about/'
 
   - icon: link
@@ -23,23 +23,23 @@ projects:
     link: https://链接地址
 
   - icon: book
-    name: 读者来信
-    desc: 欢迎欢迎，读者来了
+    name: 金融笔记  
+    desc: Everything Both Nothing
     link: https://你的书籍链接
 
   - icon: newspaper
     name: 不告诉你
-    desc: 当然了，我喜欢她
+    desc: 哈哈，我傻的可爱，你也可爱
     link: https://你的文章链接
 
   - icon: user-group
-    name: 邮政储蓄
-    desc: 我的单位，乖乖，无言
+    name: 追忆过去
+    desc: 过去很好，现在很差。年复一年。
     link: '/posts/postal/sale.html'
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 算卦小摊
-    desc: 新手命理学，图一乐
+    name: 谁会来call 
+    desc: 给我一个周二的问候呢
     link: https://你的自定义链接
 
 
@@ -63,10 +63,10 @@ projects:
 
 <div id="Hawaii-hitokoto-wrapper">
   <div class="hitokoto-content">
-    <div>『我本该是失败的，平局即是胜利。』</div>
-    <div align="right">『I should have failed, a draw counts as victory.』</div>
+    <div>『我一定做错了什么才会来到这里，所以我一定要做对什么离开这里』</div>
+    <div align="right">『I must have done something wrong to end up here, so I must do something right to leave here.』</div>
   </div>
   <div class="hitokoto-author">
-    ——「沃兹基硕德」
+    ——「小骑士」
   </div>
 </div>

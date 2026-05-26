@@ -102,10 +102,10 @@ export default hopeTheme({
         hint: "Password: 1234",
         password: "1234",
       },
-      "/2.diary/": {
-        password: ["1234", "5678"],
-        hint: "大胆，日常记录，你岂能看！",
-      },
+//     "/2.diary/": {
+//        password: ["1234", "5678"],
+//        hint: "大胆，日常记录，你岂能看！",
+//      },
     },
   },
 
